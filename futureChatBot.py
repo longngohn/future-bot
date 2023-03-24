@@ -72,7 +72,7 @@ async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, I didn't understand that command.")
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token('6206979072:AAGsMjLCpZS6vJ8VKiv_A_x3ec-auMvdI9k').build()
+    application = ApplicationBuilder().token('_').build()
 
     context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a bot, please talk to me!")
     
